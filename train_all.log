@@ -1,0 +1,41 @@
+﻿
+============================================================
+Starting meander training at 12:55:32
+============================================================
+
+Train: 113, Test: 29
+python.exe : D:\Develop\Anaconda3\envs\Pytorch\Lib\site-packages\torch\nn\utils\weight_norm.py:145: FutureWarning: `tor
+ch.nn.utils.weight_norm` is deprecated in favor of `torch.nn.utils.parametrizations.weight_norm`.
+所在位置 行:1 字符: 36
++ ... NewHandPD"; & "D:\Develop\Anaconda3\envs\Pytorch\python.exe" run_all. ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (D:\Develop\Anac...s.weight_norm`.:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+  WeightNorm.apply(module, name, dim)
+Pretrained load: 56 missing keys (expected if --use-mfa)
+Pretrained load: 28 unexpected keys
+Epoch   1/20  loss=0.4758  train_acc=0.8053  test_acc=0.8276  test_auc=1.0000
+Curve saved: checkpoints\meander_curve.png
+Epoch   2/20  loss=0.3259  train_acc=0.8850  test_acc=0.8966  test_auc=1.0000
+Curve saved: checkpoints\meander_curve.png
+Epoch   3/20  loss=0.2177  train_acc=0.9381  test_acc=0.8621  test_auc=1.0000
+Curve saved: checkpoints\meander_curve.png
+Epoch   4/20  loss=0.1708  train_acc=0.9204  test_acc=0.8276  test_auc=1.0000
+Curve saved: checkpoints\meander_curve.png
+Epoch   5/20  loss=0.0985  train_acc=0.9823  test_acc=0.7931  test_auc=1.0000
+Curve saved: checkpoints\meander_curve.png
+Epoch   6/20  loss=0.0461  train_acc=1.0000  test_acc=0.8966  test_auc=1.0000
+Curve saved: checkpoints\meander_curve.png
+Epoch   7/20  loss=0.0247  train_acc=1.0000  test_acc=0.7586  test_auc=0.9833
+Curve saved: checkpoints\meander_curve.png
+Epoch   8/20  loss=0.0255  train_acc=1.0000  test_acc=0.8966  test_auc=1.0000
+Curve saved: checkpoints\meander_curve.png
+Epoch   9/20  loss=0.0146  train_acc=1.0000  test_acc=0.7586  test_auc=0.9917
+Curve saved: checkpoints\meander_curve.png
+Epoch  10/20  loss=0.0141  train_acc=1.0000  test_acc=0.7586  test_auc=0.9917
+Curve saved: checkpoints\meander_curve.png
+Epoch  11/20  loss=0.0095  train_acc=1.0000  test_acc=0.7931  test_auc=0.9917
+Curve saved: checkpoints\meander_curve.png
+Epoch  12/20  loss=0.0068  train_acc=1.0000  test_acc=0.7586  test_auc=0.9917
+Curve saved: checkpoints\meander_curve.png

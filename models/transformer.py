@@ -140,7 +140,7 @@ class TransformerEncoder(nn.Module):
             for _ in range(n_layers)
         ])
         self.norm = RMSNorm(d_model)
-1
+
     def forward(self, x, mask=None, use_flash=True):
         for layer in self.layers:
             if self.training and x.requires_grad:
